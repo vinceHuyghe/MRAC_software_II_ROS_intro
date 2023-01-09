@@ -1,0 +1,33 @@
+{
+    "ros.distro": "noetic",
+    "python.autoComplete.extraPaths": [
+        "/dev_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+    ],
+    "python.analysis.extraPaths": [
+        "/dev_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+
+    "problems.decorations.enabled": false,
+    "cSpell.words": [
+        "Moveit",
+        "rosbag",
+        "Roscore",
+        "roslaunch",
+        "roslaunching",
+        "roslibpy",
+        "rosnode",
+        "rosparam",
+        "rosrun",
+        "rosservice",
+        "Rostopic",
+        "subframe",
+        "turtlesim"
+    ],
+    "cmake.configureOnOpen": false
+
+}
