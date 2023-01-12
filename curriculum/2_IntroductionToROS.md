@@ -105,4 +105,3 @@ save your changes with git using the following commands
 - [ROS tutorials](http://wiki.ros.org/ROS/Tutorials)
 - [ROS video tutorials - ROS Noetic for beginners](https://www.youtube.com/playlist?list=PLLSegLrePWgIbIrA4iehUQ-impvIXdd9Q)
 
-&nbsp;
