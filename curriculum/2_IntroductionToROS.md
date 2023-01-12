@@ -47,19 +47,6 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
   cd ~/dev_ws/
   ```
 
-  - Building a catkin workspace  
-
-    ```bash
-    cd ~/dev_ws/
-    catkin build
-    ```
-
-    To source your new workspace, run the following command in the terminal:
-
-    ```bash
-    source devel/setup.bash
-    ```
-
   - [Creating a catkin package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage)
     - 3 creating a catkin package
     - 4 building a catkin workspace
