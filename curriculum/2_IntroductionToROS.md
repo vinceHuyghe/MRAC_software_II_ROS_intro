@@ -87,6 +87,12 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
       build the workspace with `catkin build` and source the workspace with `source devel/setup`
     - 2.5 roslaunching
 
+    save your changes with git using the following commands
+
+    - `git add .`
+    - `git commit -m "your message"`
+    - `git push`
+
   - [Rosbag](http://wiki.ros.org/rosbag/Tutorials/Recording%20and%20playing%20back%20data)
     - 1 Recording data
     - 2 Examining and playing the bag file
