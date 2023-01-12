@@ -66,9 +66,7 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
     source devel/setup.bash
     ```
 
-  - [Creating a catkin package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage)
-
-  The workspace is already created (dev_ws), you only need to create the package.
+  - [Creating a catkin package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage) while following this tutorial you do not need to create a new workspace as the docker container already contains a catkin workspace named dev_ws.
 
   - [CMakeList.txt](http://wiki.ros.org/catkin/CMakeLists.txt)
     - 1 Overview
