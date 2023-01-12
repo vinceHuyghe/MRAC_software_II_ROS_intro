@@ -38,23 +38,17 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
   - 2 Using rosservice
   - 3 Using rosparam
 
-- [Roslaunch and launch files](http://wiki.ros.org/ROS/Tutorials/UsingRqtconsoleRoslaunch)
-  - 2.2 Using roslaunch
-  - 2.3 The launch file
-  - 2.4 The launch file explained
-  - 2.5 roslaunching
-
-- [Rosbag](http://wiki.ros.org/rosbag/Tutorials/Recording%20and%20playing%20back%20data)
-  - 1 Recording data
-  - 2 Examining and playing the bag file
-  - 3 Recoding a subset of the data
-  - 4 Limitations of rosbag
-
 - Creating a catkin workspace and package
-  - Creating a catkin workspace  
 
-    These instructions assume that you have installed catkin tools and you have sourced your environment.  
-  
+  while following this tutorial you do not need to create a new workspace as the docker container already contains a catkin workspace named dev_ws. You can use this workspace to create your package. For reference you can create a new workspace with the following commands:
+
+  ```bash
+  mkdir -p ~/dev_ws/src
+  cd ~/dev_ws/
+  ```
+
+  - Building a catkin workspace  
+
     ```bash
     cd ~/dev_ws/
     catkin build
@@ -66,7 +60,9 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
     source devel/setup.bash
     ```
 
-  - [Creating a catkin package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage) while following this tutorial you do not need to create a new workspace as the docker container already contains a catkin workspace named dev_ws.
+  - [Creating a catkin package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage)
+    - 3 creating a catkin package
+    - 4 building a catkin workspace
 
   - [CMakeList.txt](http://wiki.ros.org/catkin/CMakeLists.txt)
     - 1 Overview
@@ -76,6 +72,26 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
     - 8 Messages, services and action targets
     - 11.1 Installing Python executable scrips
     - 11.3 installing roslaunch files or other resources
+
+  - [Roslaunch and launch files](http://wiki.ros.org/ROS/Tutorials/UsingRqtconsoleRoslaunch)
+    - 2.2 Using roslaunch
+    - 2.3 The launch file
+    - 2.4 The launch file explained  
+      Add the following to your CMakeList.txt file
+
+      ```cmake
+      install(DIRECTORY launch/
+      DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch)
+      ```
+
+      build the workspace with `catkin build` and source the workspace with `source devel/setup`
+    - 2.5 roslaunching
+
+  - [Rosbag](http://wiki.ros.org/rosbag/Tutorials/Recording%20and%20playing%20back%20data)
+    - 1 Recording data
+    - 2 Examining and playing the bag file
+    - 3 Recoding a subset of the data
+    - 4 Limitations of rosbag
 
 &nbsp;
 
@@ -104,4 +120,3 @@ save your changes with git using the following commands
 
 - [ROS tutorials](http://wiki.ros.org/ROS/Tutorials)
 - [ROS video tutorials - ROS Noetic for beginners](https://www.youtube.com/playlist?list=PLLSegLrePWgIbIrA4iehUQ-impvIXdd9Q)
-
