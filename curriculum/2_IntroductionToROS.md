@@ -54,11 +54,9 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
   - Creating a catkin workspace  
 
     These instructions assume that you have installed catkin tools and you have sourced your environment.  
-    To create a catkin workspace, run the following commands in a terminal:
-
+  
     ```bash
-    mkdir -p ~/catkin_ws/src
-    cd ~/catkin_ws/
+    cd ~/dev_ws/
     catkin build
     ```
 
@@ -68,7 +66,10 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
     source devel/setup.bash
     ```
 
-  - [Creating a catkin package](http://wiki.ros.org/catkin/Tutorials/create_a_pkg)
+  - [Creating a catkin package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage)
+
+  The workspace is already created (dev_ws), you only need to create the package.
+
   - [CMakeList.txt](http://wiki.ros.org/catkin/CMakeLists.txt)
     - 1 Overview
     - 2 Overall structure and ordering
