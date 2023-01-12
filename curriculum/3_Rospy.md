@@ -4,20 +4,12 @@
 
 prerequisite: create a catkin workspace and ros pkg
 
-- create a catkin workspace
-
-    ```shell
-    mkdir -p catkin_ws/src
-    ```
-
-    reference: [Creating a catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
-
 - create a ros pkg
 
     navigate to the src folder of your workspace
 
     ```shell
-    cd catkin_ws/src
+    cd dev_ws/src
     ```
 
     create a ros pkg
