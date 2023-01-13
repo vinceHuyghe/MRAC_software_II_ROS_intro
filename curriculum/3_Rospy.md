@@ -27,6 +27,15 @@ publisher and subscriber
 
 simple service and client
 
+- [creating srv](http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv#Creating_a_srv) Instead of copying the srv msg as described in the tutorial. Create an srv folder in your pkg and create the AddTwoInts.srv srv msg there. Then paste the following code in the srv file.
+
+    ```srv
+    int64 a
+    int64 b
+    ---
+    int64 sum
+    ```
+
 - [writing a service and client](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28python%29)
 - [examining the service and client](http://wiki.ros.org/ROS/Tutorials/ExaminingServiceClient)
 
