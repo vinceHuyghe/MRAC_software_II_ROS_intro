@@ -18,7 +18,7 @@ Slides can be found in the software II gdrive folder.
 
 ### Environment setup
 
-TODO add link to flattened repo.
+[moveit1_ur](https://github.com/vinceHuyghe/MRAC_moveit1_ur)
 
 Fork and clone the following repo: moveit1_ur_mrac
 See repo README for instructions on building, running and using the container.

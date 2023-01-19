@@ -4,8 +4,7 @@ This repository contains the structure for MRAC software II course. Theory slide
 Dockerized environments can be found in the following repos
 
 - [turtlesim](https://github.com/vinceHuyghe/turtlesim)
-- TODO add link of flattened repo
-- [moveit1_ur]()
+- [moveit1_ur](https://github.com/vinceHuyghe/MRAC_moveit1_ur)
 
 The course consists of the following parts:
 
